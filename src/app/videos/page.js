@@ -83,13 +83,15 @@ const VideoVaultPage = async ({ searchParams }) => {
   const currentCategory =
     videoCategories.find((v) => v.id === activeTab) || videoCategories[0];
 
-  const filteredVideos = currentCategory.videos.filter((video) => {
-    const matchesSearch = video.source_title
-      .toLowerCase()
-      .includes(searchQuery.toLowerCase());
+  const filteredVideos = currentCategory.videos
+    .sort((a, b) => b?.yt_metadata?.view_count - a?.yt_metadata?.view_count)
+    .filter((video) => {
+      const matchesSearch = video.source_title
+        .toLowerCase()
+        .includes(searchQuery.toLowerCase());
 
-    return matchesSearch;
-  });
+      return matchesSearch;
+    });
 
   const ITEMS_PER_PAGE = 12;
   const currentPage = Number(resolvedParams.page) || 1;
