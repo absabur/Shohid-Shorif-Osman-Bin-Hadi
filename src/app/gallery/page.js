@@ -1,7 +1,5 @@
 import ImagesPage from "@/components/ImagesPage";
 
-export const dynamic = "force-static";
-
 export async function generateMetadata() {
   const canonicalUrl = `https://shorif-osman-hadi.netlify.app/gallery/}`;
   return {

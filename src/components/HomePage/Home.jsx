@@ -112,10 +112,6 @@ const Home = () => {
           </h2>
         </div>
 
-        {/* Grid container: 
-      - Mobile: 1 column, auto rows
-      - Desktop: 4 columns, 2 fixed rows
-  */}
         <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 lg:gap-6">
           {/* Identity: The Activist (Main Feature Card) */}
           <div className="md:col-span-2 md:row-span-2 bg-gradient-to-br from-red-900/30 to-zinc-950 border border-white/5 rounded-[2rem] md:rounded-[2.5rem] p-8 md:p-12 flex flex-col justify-between group hover:border-red-600/40 transition-all">
@@ -334,7 +330,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-red-700 mix-blend-multiply opacity-20" />
               <img
                 src={osmanarchiveImages[3].url}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 alt="Detail"
               />
             </div>
@@ -343,7 +339,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-red-700 mix-blend-multiply opacity-20" />
               <img
                 src={osmanarchiveImages[4].url}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 alt="Detail"
               />
             </div>
@@ -418,6 +414,5 @@ export const SectionHeader = ({ number, title, sub }) => (
     </div>
   </div>
 );
-
 
 export default Home;
