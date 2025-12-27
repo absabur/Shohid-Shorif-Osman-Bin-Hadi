@@ -2,10 +2,14 @@
 module.exports = {
   siteUrl: "https://sharif-osman-hadi.netlify.app",
   generateRobotsTxt: true,
+  exclude: ["/login", "/admin", "/admin/*"], // Removes these from sitemap.xml
   robotsTxtOptions: {
     policies: [
-      { userAgent: "*", allow: "/" },
-      // অন্য নিয়ম যোগ করতে পারেন এখানে
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/login", "/admin"],
+      },
     ],
   },
 };

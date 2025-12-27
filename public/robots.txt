@@ -1,6 +1,8 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /login
+Disallow: /admin
 
 # Host
 Host: https://sharif-osman-hadi.netlify.app
