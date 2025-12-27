@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://sharif-osman-hadi.netlify.app/bio</loc><lastmod>2025-12-26T19:50:23.992Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sharif-osman-hadi.netlify.app/gallery</loc><lastmod>2025-12-26T19:50:23.993Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sharif-osman-hadi.netlify.app</loc><lastmod>2025-12-26T19:50:23.993Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sharif-osman-hadi.netlify.app/videos</loc><lastmod>2025-12-26T19:50:23.993Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/bio</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/add-content</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/login</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/quotes</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/suggestion</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/tributes/add</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/admin</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/admin/file-requests</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/admin/tributes</loc><lastmod>2025-12-27T17:42:42.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sharif-osman-hadi.netlify.app/admin/messages</loc><lastmod>2025-12-27T17:42:42.104Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

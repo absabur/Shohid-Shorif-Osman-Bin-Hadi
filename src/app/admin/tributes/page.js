@@ -134,7 +134,7 @@ const TributesAdmin = () => {
                   <div className="relative">
                     <MessageSquareQuote className="absolute -left-2 -top-2 text-zinc-900 -z-10" size={48} />
                     <p className="text-zinc-300 text-lg md:text-xl leading-relaxed italic font-serif px-4 border-l border-zinc-800">
-                      "{it.message}"
+                      &quot;{it.message}&quot;
                     </p>
                   </div>
                   

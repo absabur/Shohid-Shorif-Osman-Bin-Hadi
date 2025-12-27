@@ -74,7 +74,7 @@ export default async function TributesPage({ searchParams }) {
                           </div>
                         </div>
                         <p className="text-zinc-400 text-lg md:text-xl leading-relaxed italic font-serif mb-8 italic">
-                          "{tribute.message}"
+                          &quot;{tribute.message}&quot;
                         </p>
                         <div className="pt-6 border-t border-white/5 flex items-center justify-between">
                           <div className="flex items-center gap-2 text-zinc-600">

@@ -159,7 +159,7 @@ const FileRequestsAdmin = () => {
                       {it.title}
                     </h2>
                     <p className="text-zinc-400 text-sm leading-relaxed max-w-3xl italic">
-                      "{it.description}"
+                      &quot;{it.description}&quot;
                     </p>
                   </div>
 

@@ -134,9 +134,9 @@ const AboutPage = () => {
             <div className="relative bg-zinc-900 border border-white/10 p-6 md:p-8 rounded-[2rem] md:rounded-[3rem] space-y-6">
               <Quote className="text-red-700 opacity-50" />
               <p className="text-xl md:text-2xl font-serif italic text-zinc-200 leading-snug">
-                "আমি তো ছোটোবেলা থেকে স্বপ্ন দেখি-একটা তুমুল মিছিল হচ্ছে
+                &quot;আমি তো ছোটোবেলা থেকে স্বপ্ন দেখি-একটা তুমুল মিছিল হচ্ছে
                 অন্যায়ের বিরুদ্ধে, সেই মিছিলের সামনে আমি আছি, কোনো একটা বুলেট
-                এসে হয়তো আমার বুকটা বিদ্ধ করে দিয়েছে!"
+                এসে হয়তো আমার বুকটা বিদ্ধ করে দিয়েছে!&quot;
               </p>
               <p className="text-red-600 font-black text-xs uppercase tracking-widest">
                 — তাঁর শেষ স্বপ্ন

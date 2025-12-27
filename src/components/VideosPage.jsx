@@ -178,7 +178,7 @@ const VideosPage = ({ resolvedParams }) => {
             </h3>
             <p className="text-zinc-500 max-w-sm mx-auto text-sm leading-relaxed mb-10">
               The archive could not locate any files matching{" "}
-              <span className="text-red-600 font-bold">"{searchQuery}"</span> in
+              <span className="text-red-600 font-bold">&quot;{searchQuery}&quot;</span> in
               the{" "}
               <span className="text-white font-bold">
                 {currentCategory.label}

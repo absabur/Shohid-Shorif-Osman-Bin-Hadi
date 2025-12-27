@@ -38,7 +38,7 @@ const ImagesPage = ({ resolvedParams }) => {
               </span>
             </h1>
             <p className="text-zinc-500 max-w-xl text-lg italic">
-              "প্রতিটি ফ্রেম একটি নীরব বিপ্লব, প্রতিটি ছবি একটি জীবন্ত ইতিহাস।"
+              &quot;প্রতিটি ফ্রেম একটি নীরব বিপ্লব, প্রতিটি ছবি একটি জীবন্ত ইতিহাস।&quot;
             </p>
           </div>
 

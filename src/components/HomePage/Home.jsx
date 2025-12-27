@@ -256,8 +256,8 @@ const Home = () => {
             </div>
             <div className="max-w-md text-right">
               <p className="text-zinc-500 text-lg leading-relaxed italic mb-6">
-                "ছবি কথা বলে, ইতিহাসকে জীবন্ত রাখে। প্রতিটি ফ্রেমে মিশে আছে
-                বিপ্লব ও ভালোবাসার গল্প।"
+                &quot;ছবি কথা বলে, ইতিহাসকে জীবন্ত রাখে। প্রতিটি ফ্রেমে মিশে আছে
+                বিপ্লব ও ভালোবাসার গল্প।&quot;
               </p>
               <Link
                 href="/gallery"
@@ -375,10 +375,10 @@ const Home = () => {
         <div className="max-w-4xl mx-auto px-6 relative z-10 text-center">
           <Quote className="text-red-700 mx-auto mb-10 opacity-40" size={80} />
           <h2 className="text-2xl md:text-3xl font-serif italic leading-tight text-zinc-100">
-            "সবাই যখন মৃত্যুটাকে ভীষণ ভয় পায়, আমি তখন হাসতে হাসতে আল্লাহর কাছে
+            &quot;সবাই যখন মৃত্যুটাকে ভীষণ ভয় পায়, আমি তখন হাসতে হাসতে আল্লাহর কাছে
             ভীষণ সন্তুষ্টি নিয়ে পৌছাতে চাই। যে আমি নুন্যতম একটা জীবন লিড করতে
             পারলাম। আমি একটা ইনসাফের হাসি নিয়ে আমি আমার আল্লাহর কাছে পাঁছাত
-            পেরেছি"
+            পেরেছি&quot;
           </h2>
           <div className="mt-12 flex items-center justify-center gap-6">
             <div className="h-px w-16 bg-red-700/50" />

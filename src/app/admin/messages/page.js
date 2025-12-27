@@ -144,7 +144,7 @@ const MessagesList = () => {
                       </h3>
                     )}
                     <p className="text-zinc-300 text-lg leading-relaxed italic font-serif bg-zinc-900/30 p-6 rounded-2xl border border-white/[0.02]">
-                      "{it.message}"
+                      &quot;{it.message}&quot;
                     </p>
                   </div>
                 </div>

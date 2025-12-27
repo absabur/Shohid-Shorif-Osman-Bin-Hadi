@@ -12,5 +12,5 @@ export async function generateMetadata() {
 
 export default async function GalleryPage({ searchParams }) {
   const resolvedParams = await searchParams;
-  return <ImagesPage resolvedParams={resolvedParams} />;
+  return <ImagesPage key={resolvedParams} resolvedParams={resolvedParams} />;
 }
