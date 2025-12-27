@@ -6,7 +6,7 @@ export const discussion = [
     drive_url:
       "https://drive.google.com/file/d/1UykDYD7AyJw3CYIv4IlepmvHR3-qsYXc/view?usp=sharing",
     source_title:
-      "জুলাই বেচে দিলে জাহান্নাম নেমে আসবে! | Sharif Osman Hadi | Somoyer Alap | BD Politics | Somoy   TV",
+      "জুলাই বেচে দিলে জাহান্নাম নেমে আসবে! | Sharif Osman Hadi | Somoyer Alap | BD Politics | Somoy     TV",
     yt_source_url: "https://www.youtube.com/watch?v=Hi-lInT__Ww",
     yt_metadata: {
       title:
@@ -15,6 +15,14 @@ export const discussion = [
       upload_date: "20251005",
       view_count: 362972,
       channel: "SOMOY TV",
+    },
+    fetched_metadata: {
+      title:
+        "জুলাই বেচে দিলে জাহান্নাম নেমে আসবে! | Sharif Osman Hadi | Somoyer Alap | BD Politics | Somoy TV",
+      duration: "34:25",
+      upload_date: "20251005",
+      view_count: 383121,
+      uploader: "SOMOY TV",
     },
   },
   {
@@ -34,6 +42,14 @@ export const discussion = [
       view_count: 372638,
       channel: "Somoy Entertainment",
     },
+    fetched_metadata: {
+      title:
+        "সংসদে বিসমিল্লাহ বলে চাঁদাবাজের তালিকা প্রকাশ করবো: ওসমান হাদি | Osman Hadi | Inqilab Manch",
+      duration: "25:05",
+      upload_date: "20251211",
+      view_count: 382943,
+      uploader: "Somoy Entertainment",
+    },
   },
   {
     category: "Discussion",
@@ -42,7 +58,7 @@ export const discussion = [
     drive_url:
       "https://drive.google.com/file/d/1COeKTwzNqdD35J29nwxC7_1IY5Cc2V5W/view?usp=sharing",
     source_title:
-      "গুলিবিদ্ধ হওয়ার আগে সময় টিভিকে দেয়া ওসমান হাদির শেষ সাক্ষাৎকার | Osman Hadi Passes away | Somo  oy TV",
+      "গুলিবিদ্ধ হওয়ার আগে সময় টিভিকে দেয়া ওসমান হাদির শেষ সাক্ষাৎকার | Osman Hadi Passes away | Somo  o  oy TV",
     yt_source_url: "https://www.youtube.com/watch?v=BMpubqDxf6k",
     yt_metadata: {
       title:
@@ -52,6 +68,14 @@ export const discussion = [
       view_count: 245037,
       channel: "SOMOY TV",
     },
+    fetched_metadata: {
+      title:
+        "গুলিবিদ্ধ হওয়ার আগে সময় টিভিকে দেয়া ওসমান হাদির শেষ সাক্ষাৎকার | Osman Hadi Passes away | Somoy TV",
+      duration: "44:53",
+      upload_date: "20251218",
+      view_count: 247994,
+      uploader: "SOMOY TV",
+    },
   },
   {
     category: "Discussion",
@@ -60,15 +84,23 @@ export const discussion = [
     drive_url:
       "https://drive.google.com/file/d/1soymTUtPbXwQP-IAPqjOhRflMdDSA6yh/view?usp=sharing",
     source_title:
-      "আমারে নিয়া ঢাবি, বুয়েটের বন্ধুরা নিজেদের ব্যাপারেও এত হতাশ হয়নাই ! Osman Hadi I Tanvir Tareq I   I EP 1",
+      "আমারে নিয়া ঢাবি, বুয়েটের বন্ধুরা নিজেদের ব্যাপারেও এত হতাশ হয়নাই ! Osman Hadi I Tanvir Tareq I   I   I EP 1",
     yt_source_url: "https://www.youtube.com/watch?v=niggFUXhHYw",
     yt_metadata: {
       title:
-        "আমারে নিয়া ঢাবি, বুয়েটের বন্ধুরা নিজেদের ব্যাপারেও এত হতাশ হয়নাই ! Osman Hadi I Tanvir Tareq I EP 1   1",
+        "আমারে নিয়া ঢাবি, বুয়েটের বন্ধুরা নিজেদের ব্যাপারেও এত হতাশ হয়নাই ! Osman Hadi I Tanvir Tareq I EP 1   1   1",
       duration: "32:36",
       upload_date: "20251203",
       view_count: 22614,
       channel: "Tanvir Tareq",
+    },
+    fetched_metadata: {
+      title:
+        "আমারে নিয়া ঢাবি, বুয়েটের বন্ধুরা নিজেদের ব্যাপারেও এত হতাশ হয়নাই ! Osman Hadi I Tanvir Tareq I EP 1   1",
+      duration: "32:36",
+      upload_date: "20251203",
+      view_count: 24175,
+      uploader: "Tanvir Tareq",
     },
   },
   {
@@ -87,6 +119,13 @@ export const discussion = [
       view_count: 12902,
       channel: "Tanvir Tareq",
     },
+    fetched_metadata: {
+      title: "রাজনীতির ভাষা কালচার নিয়ে বিস্তারিত বললেন ওসমান হাদি । Kolahall",
+      duration: "19:51",
+      upload_date: "20251214",
+      view_count: 13606,
+      uploader: "Tanvir Tareq",
+    },
   },
   {
     category: "Discussion",
@@ -103,6 +142,13 @@ export const discussion = [
       view_count: 16155,
       channel: "Tanvir Tareq",
     },
+    fetched_metadata: {
+      title: "হাদির রাজনৈতিক দর্শন । osman hadi I KOLAHALL",
+      duration: "18:20",
+      upload_date: "20251212",
+      view_count: 16675,
+      uploader: "Tanvir Tareq",
+    },
   },
   {
     category: "Discussion",
@@ -118,6 +164,13 @@ export const discussion = [
       upload_date: "20251221",
       view_count: 8108,
       channel: "Tanvir Tareq",
+    },
+    fetched_metadata: {
+      title: "হাদির যে সহনশীলতার কথাগুলো নিয়ে চর্চা-ই হয়নাই ! Osman Hadi",
+      duration: "14:01",
+      upload_date: "20251221",
+      view_count: 8586,
+      uploader: "Tanvir Tareq",
     },
   },
   {
@@ -137,6 +190,14 @@ export const discussion = [
       view_count: 8854,
       channel: "Tanvir Tareq",
     },
+    fetched_metadata: {
+      title:
+        "ইনক্লুসিভ নির্বাচন প্রসঙ্গে ওসমান হাদি যা বললেন । Check in Tanvir I part 4",
+      duration: "14:09",
+      upload_date: "20251220",
+      view_count: 9046,
+      uploader: "Tanvir Tareq",
+    },
   },
   {
     category: "Discussion",
@@ -154,6 +215,14 @@ export const discussion = [
       upload_date: "20251218",
       view_count: 18121,
       channel: "Tanvir Tareq",
+    },
+    fetched_metadata: {
+      title:
+        "বিভাজন থাকবেই , তবু আমি আশাবাদী । কেন বলেছিলেন ওসমান হাদি । CHECK IN TANVIR",
+      duration: "23:45",
+      upload_date: "20251218",
+      view_count: 18823,
+      uploader: "Tanvir Tareq",
     },
   },
   {
@@ -173,6 +242,14 @@ export const discussion = [
       view_count: 625498,
       channel: "Channel i Shows",
     },
+    fetched_metadata: {
+      title:
+        "দীপ্তি চৌধুরীর স্ট্রেইট কাট প্রশ্নে ইনকিলাব মঞ্চের শরিফ ওসমান হাদি-এর উত্তর।",
+      duration: "27:07",
+      upload_date: "20250822",
+      view_count: 642247,
+      uploader: "Channel i Shows",
+    },
   },
   {
     category: "Discussion",
@@ -181,7 +258,7 @@ export const discussion = [
     drive_url:
       "https://drive.google.com/file/d/1zDp6lSB7iOPt4SwKsLdRP_tPaq7STmI7/view?usp=drive_link",
     source_title:
-      "আমরা চূড়ান্ত বিপ্লবের প্রস্তুতি নিচ্ছি | দ্য আরজে কিবরিয়া শো | শরিফ ওসমান হাদি | Hadi | RJ Keb       bria",
+      "আমরা চূড়ান্ত বিপ্লবের প্রস্তুতি নিচ্ছি | দ্য আরজে কিবরিয়া শো | শরিফ ওসমান হাদি | Hadi | RJ Keb       b       bria",
     yt_source_url: "https://www.youtube.com/watch?v=ouQyEodVYZE",
     yt_metadata: {
       title:
@@ -191,6 +268,14 @@ export const discussion = [
       view_count: 922457,
       channel: "Nexus Television",
     },
+    fetched_metadata: {
+      title:
+        "আমরা চূড়ান্ত বিপ্লবের প্রস্তুতি নিচ্ছি | দ্য আরজে কিবরিয়া শো | শরিফ ওসমান হাদি | Hadi | RJ Kebria",
+      duration: "48:38",
+      upload_date: "20250826",
+      view_count: 946830,
+      uploader: "Nexus Television",
+    },
   },
   {
     category: "Discussion",
@@ -199,15 +284,23 @@ export const discussion = [
     drive_url:
       "https://drive.google.com/file/d/1heSekiksc8kOomDpRiYVROBmDs0seTEi/view?usp=drive_link",
     source_title:
-      "ঢাকা ৮ এর ওসমান হাদি- নির্বাচন ভাবনা এবং জুলাই সনদের বাংলাদেশের স্বপ্ন। ব্যরিস্টার ফুয়াদের সাথ      থে আলাপ",
+      "ঢাকা ৮ এর ওসমান হাদি- নির্বাচন ভাবনা এবং জুলাই সনদের বাংলাদেশের স্বপ্ন। ব্যরিস্টার ফুয়াদের সাথ      থ      থে আলাপ",
     yt_source_url: "https://www.youtube.com/watch?v=Ge1qWV7RPJg",
     yt_metadata: {
       title:
-        "ঢাকা ৮ এর ওসমান হাদি- নির্বাচন ভাবনা এবং জুলাই সনদের বাংলাদেশের স্বপ্ন। ব্যরিস্টার ফুয়াদের সাথে আলা      াপ",
+        "ঢাকা ৮ এর ওসমান হাদি- নির্বাচন ভাবনা এবং জুলাই সনদের বাংলাদেশের স্বপ্ন। ব্যরিস্টার ফুয়াদের সাথে আলা      া      াপ",
       duration: "1:18:58",
       upload_date: "20250613",
       view_count: 119042,
       channel: "TSL Originals",
+    },
+    fetched_metadata: {
+      title:
+        "ঢাকা ৮ এর ওসমান হাদী- নির্বাচন ভাবনা এবং জুলাই সনদের বাংলাদেশের স্বপ্ন। ব্যরিস্টার ফুয়াদের সাথে আলা      াপ",
+      duration: "1:18:58",
+      upload_date: "20250613",
+      view_count: 124501,
+      uploader: "TSL Originals",
     },
   },
   {
@@ -227,6 +320,14 @@ export const discussion = [
       view_count: 25073,
       channel: "BanglaVision NEWS",
     },
+    fetched_metadata: {
+      title:
+        "ভোটার সচেতন হলে, রাজনীতিবিদ ভালো হতে বাধ্য: হাদি | Sharif osman hadi | Election",
+      duration: "7:46",
+      upload_date: "20251111",
+      view_count: 25091,
+      uploader: "BanglaVision NEWS",
+    },
   },
   {
     category: "Discussion",
@@ -244,6 +345,14 @@ export const discussion = [
       upload_date: "20251130",
       view_count: 113799,
       channel: "BanglaVision NEWS",
+    },
+    fetched_metadata: {
+      title:
+        "বেগম খালেদা জিয়া শুধু বিএনপির নয় সমগ্র বাংলাদেশের অভিভাবক: ওসমান হাদি",
+      duration: "4:37",
+      upload_date: "20251130",
+      view_count: 116972,
+      uploader: "BanglaVision NEWS",
     },
   },
   {
@@ -263,6 +372,14 @@ export const discussion = [
       view_count: 298035,
       channel: "BanglaVision NEWS",
     },
+    fetched_metadata: {
+      title:
+        "‘দেশের বাইরে আমার কোন ঠিকানা নেই’ দেশপ্রেম না থাকলে বলা যায় না: ওসমান হাদি",
+      duration: "4:39",
+      upload_date: "20251201",
+      view_count: 315870,
+      uploader: "BanglaVision NEWS",
+    },
   },
   {
     category: "Discussion",
@@ -280,6 +397,14 @@ export const discussion = [
       upload_date: "20251201",
       view_count: 69709,
       channel: "Centrist Nation TV",
+    },
+    fetched_metadata: {
+      title:
+        "Election Conversations with Zunaed Rabbani | Osman Hadi | Episode 02 | Part 01 | CN TV",
+      duration: "29:31",
+      upload_date: "20251201",
+      view_count: 72734,
+      uploader: "Centrist Nation TV",
     },
   },
   {
@@ -299,6 +424,14 @@ export const discussion = [
       view_count: 2055,
       channel: "Centrist Nation TV",
     },
+    fetched_metadata: {
+      title:
+        "Election Conversations with Zunaed Rabbani | Osman Hadi | Episode 02 | Part 02 | CN TV",
+      duration: "32:59",
+      upload_date: "20251206",
+      view_count: 2095,
+      uploader: "Centrist Nation TV",
+    },
   },
   {
     category: "Discussion",
@@ -317,6 +450,14 @@ export const discussion = [
       view_count: 4719,
       channel: "Independent Television",
     },
+    fetched_metadata: {
+      title:
+        "'একটি পক্ষ বিরাজনীতিকরণের চেষ্টা চালাচ্ছে' | sharif osman hadi | Independent TV",
+      duration: "45:22",
+      upload_date: "20250716",
+      view_count: 4730,
+      uploader: "Independent Television",
+    },
   },
   {
     category: "Discussion",
@@ -334,6 +475,14 @@ export const discussion = [
       upload_date: "20250729",
       view_count: 21047,
       channel: "GTV News",
+    },
+    fetched_metadata: {
+      title:
+        "রাষ্ট্রের মালিকানা কার? Tumi Ke? Ami Ke? | EP-02 | Osman Hadi ‍| Mabrur Rashid Bannah | GTV",
+      duration: "1:11:10",
+      upload_date: "20250729",
+      view_count: 21304,
+      uploader: "GTV News",
     },
   },
 ];

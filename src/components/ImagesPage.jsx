@@ -19,8 +19,8 @@ const ImagesPage = ({ resolvedParams }) => {
   );
 
   return (
-    <div className="min-h-screen bg-[#050000] text-white pt-32 pb-20 px-6">
-      <div className="max-w-[1400px] mx-auto">
+    <div className="min-h-screen bg-[#050000] text-white pt-32 pb-20">
+      <div className="max-w-[1400px] mx-auto px-6">
         <BackSection
           links={[{ path: "/", text: "", icon: <Home size={15} /> }]}
           current={`Gallery`}
@@ -28,10 +28,7 @@ const ImagesPage = ({ resolvedParams }) => {
         {/* HEADER SECTION */}
         <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-16 border-b border-white/5 pb-12">
           <div className="space-y-4">
-            <h3 className="text-red-600 font-black uppercase tracking-[0.3em] flex items-center gap-2">
-              <Camera size={18} /> Visual Archive
-            </h3>
-            <h1 className="text-5xl md:text-7xl font-black tracking-tighter">
+            <h1 className="text-3xl md:text-5xl font-black tracking-tighter">
               স্মৃতির{" "}
               <span
                 className="text-zinc-800"

@@ -16,6 +16,14 @@ export const talkshow = [
       view_count: 89884,
       channel: "Jamuna TV",
     },
+    fetched_metadata: {
+      title:
+        "নির্বাচন বানচালের আশঙ্কা করেছিলেন ওসমান হাদি | Osman Hadi |  24 Ghonta Hadi on Election",
+      duration: "2:43",
+      upload_date: "20251220",
+      view_count: 90258,
+      uploader: "Jamuna TV",
+    },
   },
   {
     category: "Talk Show",
@@ -33,6 +41,14 @@ export const talkshow = [
       upload_date: "20251220",
       view_count: 249375,
       channel: "BanglaVision NEWS",
+    },
+    fetched_metadata: {
+      title:
+        "মৃ/ত্যু/র আগে বাংলাভিশনকে দেয়া হাদির শেষ সাক্ষাৎকার |  Sharif Osman Hadi",
+      duration: "20:01",
+      upload_date: "20251220",
+      view_count: 253089,
+      uploader: "BanglaVision NEWS",
     },
   },
   {
@@ -52,6 +68,14 @@ export const talkshow = [
       view_count: 640221,
       channel: "Channel 24",
     },
+    fetched_metadata: {
+      title:
+        "শেষবারের মত চ্যানেল 24'র টকশোতে এসে যা বলেছিলেন ওসমান হাদি | Osman hadi | Channel 24",
+      duration: "17:35",
+      upload_date: "20251219",
+      view_count: 648904,
+      uploader: "Channel 24",
+    },
   },
   {
     category: "Talk Show",
@@ -60,15 +84,23 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/17sVnijRxtdwtNXAIRzPcvDu3B92gp4uB/view?usp=drive_link",
     source_title:
-      "নির্বাচন ছাড়া সমাধান নেই, দাবি বিএনপির | Ekhon Prokash | BNP | CSRM | National Election | Ekhoon TV",
+      "নির্বাচন ছাড়া সমাধান নেই, দাবি বিএনপির | Ekhon Prokash | BNP | CSRM | National Election | Ekhooon TV",
     yt_source_url: "https://www.youtube.com/watch?v=jUN-Z_m0wAg",
     yt_metadata: {
       title:
-        "নির্বাচন ছাড়া সমাধান নেই, দাবি বিএনপির | Ekhon Prokash | BNP | CSRM |  National Election | Ekhon TVV",
+        "নির্বাচন ছাড়া সমাধান নেই, দাবি বিএনপির | Ekhon Prokash | BNP | CSRM |  National Election | Ekhon TVVV",
       duration: "39:22",
       upload_date: "20250807",
       view_count: 146557,
       channel: "EKHON TV",
+    },
+    fetched_metadata: {
+      title:
+        "নির্বাচন ছাড়া সমাধান নেই, দাবি বিএনপির | Ekhon Prokash | BNP | CSRM |  National Election | Ekhon TVV",
+      duration: "39:22",
+      upload_date: "20250807",
+      view_count: 148517,
+      uploader: "EKHON TV",
     },
   },
   {
@@ -88,6 +120,14 @@ export const talkshow = [
       view_count: 46724,
       channel: "রাজনৈতিক মঞ্চ",
     },
+    fetched_metadata: {
+      title:
+        "ঐকমত্য কমিশন ও গণভোট  নিয়ে তর্কে ওসমান হাদী একাই তিনজনকে শুয়ে দিলেন। Talk Show fight |",
+      duration: "27:26",
+      upload_date: "20251101",
+      view_count: 46748,
+      uploader: "রাজনৈতিক মঞ্চ",
+    },
   },
   {
     category: "Talk Show",
@@ -105,6 +145,14 @@ export const talkshow = [
       upload_date: "20251019",
       view_count: 81116,
       channel: "ETV Talk Show",
+    },
+    fetched_metadata: {
+      title:
+        "উপদেষ্টা পরিষদের কারা কারা নিচ্ছেন সেইফ এক্সিট? | ফ্যাক্ট চেক | Fact Check | Ekushey TV",
+      duration: "46:35",
+      upload_date: "20251019",
+      view_count: 81846,
+      uploader: "ETV Talk Show",
     },
   },
   {
@@ -124,6 +172,14 @@ export const talkshow = [
       view_count: 27959,
       channel: "BanglaVision NEWS",
     },
+    fetched_metadata: {
+      title:
+        "প্রথম আলোর জরিপ: আওয়ামী লীগকে নরমালাইজ করার প্রক্রিয়া: ওসমান হাদি | Osman Hadi | Talk show",
+      duration: "4:23",
+      upload_date: "20251210",
+      view_count: 28216,
+      uploader: "BanglaVision NEWS",
+    },
   },
   {
     category: "Talk Show",
@@ -141,6 +197,14 @@ export const talkshow = [
       upload_date: "20250709",
       view_count: 24041,
       channel: "BanglaVision NEWS",
+    },
+    fetched_metadata: {
+      title:
+        "Point of Order | Kazi Jesin | Zahed Ur Rahman | Sharif Osman Hadi | Talk show | Banglavision",
+      duration: "50:08",
+      upload_date: "20250709",
+      view_count: 24130,
+      uploader: "BanglaVision NEWS",
     },
   },
   {
@@ -160,6 +224,14 @@ export const talkshow = [
       view_count: 17223,
       channel: "Desh TV News",
     },
+    fetched_metadata: {
+      title:
+        "যে কারণে আ. লীগের জন্য কেঁদে কেঁদে দোয়া করেন ওসমান হাদি | Osman Hadi | Talk Show | Desh TV",
+      duration: "4:49",
+      upload_date: "20251009",
+      view_count: 17239,
+      uploader: "Desh TV News",
+    },
   },
   {
     category: "Talk Show",
@@ -178,6 +250,14 @@ export const talkshow = [
       view_count: 18907,
       channel: "ATN News Live",
     },
+    fetched_metadata: {
+      title:
+        "সংবিধানের কোথায় সমস্যা? ইনকিলাব মঞ্চের হাদি কী বলছেন? | Osman Hadi | Talk Show | ATN News",
+      duration: "6:57",
+      upload_date: "20251031",
+      view_count: 18976,
+      uploader: "ATN News Live",
+    },
   },
   {
     category: "Talk Show",
@@ -186,15 +266,23 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1M_ywf6RKNNQ4G7s5MC-S-yXcm_I7EkC8/view?usp=drive_link",
     source_title:
-      "ঘোষণাপত্রে পিলখানা ও শাপলা হ/ত্যাকাণ্ড নাই কেন? | Osman Hadi | BNP | Jamaat | Political News |  | July",
+      "ঘোষণাপত্রে পিলখানা ও শাপলা হ/ত্যাকাণ্ড নাই কেন? | Osman Hadi | BNP | Jamaat | Political News |  |  | July",
     yt_source_url: "https://www.youtube.com/watch?v=yMr-1T-1mgY&t=16s",
     yt_metadata: {
       title:
-        "ঘোষণাপত্রে পিলখানা ও শাপলা হ/ত্যাকাণ্ড নাই কেন? | Osman Hadi | BNP | Jamaat | Political News | July  y",
+        "ঘোষণাপত্রে পিলখানা ও শাপলা হ/ত্যাকাণ্ড নাই কেন? | Osman Hadi | BNP | Jamaat | Political News | July  y  y",
       duration: "6:10",
       upload_date: "20250808",
       view_count: 837837,
       channel: "EKHON TV",
+    },
+    fetched_metadata: {
+      title:
+        "ঘোষণাপত্রে পিলখানা ও শাপলা হ/ত্যাকাণ্ড নাই কেন? | Osman Hadi | BNP | Jamaat | Political News | July  y",
+      duration: "6:10",
+      upload_date: "20250808",
+      view_count: 852847,
+      uploader: "EKHON TV",
     },
   },
   {
@@ -204,7 +292,7 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1MjHnqFPu9eP5fPejcl-zW18VS3yx64am/view?usp=drive_link",
     source_title:
-      "আমরা কেন ১০টি ট্রাইব্যুনাল করতে পারিনি? বিচার বিষয়ে হাদির মন্তব্য | Hadi | Justice | Jamuna TV    V",
+      "আমরা কেন ১০টি ট্রাইব্যুনাল করতে পারিনি? বিচার বিষয়ে হাদির মন্তব্য | Hadi | Justice | Jamuna TV    V    V",
     yt_source_url: "https://www.youtube.com/watch?v=zFuDbnma2O0",
     yt_metadata: {
       title:
@@ -213,6 +301,14 @@ export const talkshow = [
       upload_date: "20251220",
       view_count: 97558,
       channel: "Jamuna TV",
+    },
+    fetched_metadata: {
+      title:
+        "আমরা কেন ১০টি ট্রাইব্যুনাল করতে পারিনি? বিচার বিষয়ে হাদির মন্তব্য | Hadi | Justice | Jamuna TV",
+      duration: "3:49",
+      upload_date: "20251220",
+      view_count: 98333,
+      uploader: "Jamuna TV",
     },
   },
   {
@@ -232,6 +328,14 @@ export const talkshow = [
       view_count: 1068659,
       channel: "Jamuna TV",
     },
+    fetched_metadata: {
+      title:
+        "‘জুলাই যোদ্ধা’ কারও নাম- পরিচয় হতে পারে না: শরিফ উসমান হাদি | Hadi | Rajniti | Jamuna TV",
+      duration: "10:23",
+      upload_date: "20250829",
+      view_count: 1095795,
+      uploader: "Jamuna TV",
+    },
   },
   {
     category: "Talk Show",
@@ -250,6 +354,14 @@ export const talkshow = [
       view_count: 123643,
       channel: "Jamuna TV",
     },
+    fetched_metadata: {
+      title:
+        "চাটুকারিতা আমাদের মনস্তত্ত্বে: ওসমান হাদি | Osman Hadi | 24 Ghonta | Jamuna TV",
+      duration: "2:03",
+      upload_date: "20251220",
+      view_count: 125895,
+      uploader: "Jamuna TV",
+    },
   },
   {
     category: "Talk Show",
@@ -258,7 +370,7 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1ADDxVVIJWI_ddfJOFTRkW-0DCO9j0qmA/view?usp=drive_link",
     source_title:
-      "মাসুদ কামাল কে সাংবাদিকতা শেখালেন হাদি | নাহিদ-হাসনাতদের নিয়ে কামালের সমালোচনা | Khaled Mohiudddin",
+      "মাসুদ কামাল কে সাংবাদিকতা শেখালেন হাদি | নাহিদ-হাসনাতদের নিয়ে কামালের সমালোচনা | Khaled Mohiuddddin",
     yt_source_url: "https://www.youtube.com/watch?v=r_an-edZzlA",
     yt_metadata: {
       title:
@@ -267,6 +379,14 @@ export const talkshow = [
       upload_date: "20250819",
       view_count: 258776,
       channel: "Mass Talk ",
+    },
+    fetched_metadata: {
+      title:
+        "মাসুদ কামাল কে সাংবাদিকতা শেখালেন হাদী | নাহিদ-হাসনাতদের নিয়ে কামালের সমালোচনা | Khaled Mohiuddin",
+      duration: "8:20",
+      upload_date: "20250819",
+      view_count: 260521,
+      uploader: "Mass Talk ",
     },
   },
   {
@@ -284,6 +404,13 @@ export const talkshow = [
       view_count: 446708,
       channel: "ঠিকানায় খালেদ মুহিউদ্দীন",
     },
+    fetched_metadata: {
+      title: "সরকারের ভেতরে সরকার: কার কী চাওয়া?",
+      duration: "1:33:16",
+      upload_date: "20250814",
+      view_count: 447253,
+      uploader: "ঠিকানায় খালেদ মুহিউদ্দীন",
+    },
   },
   {
     category: "Talk Show",
@@ -292,7 +419,7 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1LSZyJlh8L0jOUfzzsUzGpxPHvQNZmgS9/view?usp=drive_link",
     source_title:
-      "দেশের মানুষ ভালো না থাকলে দায় কি সরকারের? | Osman Hadi | Talk Show | Sadhin Songlap | ATN Newss",
+      "দেশের মানুষ ভালো না থাকলে দায় কি সরকারের? | Osman Hadi | Talk Show | Sadhin Songlap | ATN Newsss",
     yt_source_url: "https://www.youtube.com/watch?v=gJN0tGPOJ6Q",
     yt_metadata: {
       title:
@@ -302,6 +429,14 @@ export const talkshow = [
       view_count: 5627,
       channel: "ATN News Live",
     },
+    fetched_metadata: {
+      title:
+        "দেশের মানুষ ভালো না থাকলে দায় কি সরকারের? | Osman Hadi | Talk Show | Sadhin Songlap | ATN News",
+      duration: "3:16",
+      upload_date: "20251031",
+      view_count: 5701,
+      uploader: "ATN News Live",
+    },
   },
   {
     category: "Talk Show",
@@ -310,15 +445,23 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1Wfjh5AoxSMolMGOfoEHqh3nm1VKK8igk/view?usp=drive_link",
     source_title:
-      "‘বিএনপিকে কর্নার করে এখন দেশে ভালো কিছু সম্ভব নয়’ | Special Talk Show | Osman Hadi | Mahmuda H  Habiba",
+      "‘বিএনপিকে কর্নার করে এখন দেশে ভালো কিছু সম্ভব নয়’ | Special Talk Show | Osman Hadi | Mahmuda H  H  Habiba",
     yt_source_url: "https://www.youtube.com/watch?v=hB9v5-Bn5_A",
     yt_metadata: {
       title:
-        "‘বিএনপিকে কর্নার করে এখন দেশে ভালো কিছু সম্ভব নয়’ | Special Talk Show | Osman Hadi | Mahmuda Habiba  a",
+        "‘বিএনপিকে কর্নার করে এখন দেশে ভালো কিছু সম্ভব নয়’ | Special Talk Show | Osman Hadi | Mahmuda Habiba  a  a",
       duration: "58:27",
       upload_date: "20250828",
       view_count: 952,
       channel: "Kaler Kantho",
+    },
+    fetched_metadata: {
+      title:
+        "‘বিএনপিকে কর্নার করে এখন দেশে ভালো কিছু সম্ভব নয়’ | Special Talk Show | Osman Hadi | Mahmuda Habiba  a",
+      duration: "58:27",
+      upload_date: "20250828",
+      view_count: 962,
+      uploader: "Kaler Kantho",
     },
   },
   {
@@ -328,15 +471,23 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1R-Dg3GQ2ybGTLZmClTXn4LZhL_2Wl2AK/view?usp=drive_link",
     source_title:
-      "আওয়ামী লীগের ব্যাপারে আগেই সতর্ক করেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavision    News",
+      "আওয়ামী লীগের ব্যাপারে আগেই সতর্ক করেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavision       News",
     yt_source_url: "https://www.youtube.com/watch?v=IuAK-h8N7Vc",
     yt_metadata: {
       title:
-        "আওয়ামী লীগের ব্যাপারে আগেই সতর্ক করেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavision News  ",
+        "আওয়ামী লীগের ব্যাপারে আগেই সতর্ক করেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavision News     ",
       duration: "2:26",
       upload_date: "20251217",
       view_count: 15083,
       channel: "BanglaVision NEWS",
+    },
+    fetched_metadata: {
+      title:
+        "আওয়ামী লীগের ব্যাপারে আগেই সতর্ক করেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavision News",
+      duration: "2:26",
+      upload_date: "20251217",
+      view_count: 15608,
+      uploader: "BanglaVision NEWS",
     },
   },
   {
@@ -356,6 +507,14 @@ export const talkshow = [
       view_count: 16473,
       channel: "mytv Bangladesh",
     },
+    fetched_metadata: {
+      title:
+        "উত্তপ্ত হচ্ছে রাজপথ | EP-1597 | Mytv Songlap | Osman Hadi | Rabiul Alam | Talk Show",
+      duration: "43:20",
+      upload_date: "20250924",
+      view_count: 16500,
+      uploader: "mytv Bangladesh",
+    },
   },
   {
     category: "Talk Show",
@@ -373,6 +532,14 @@ export const talkshow = [
       upload_date: "20251027",
       view_count: 93991,
       channel: "Jamuna TV",
+    },
+    fetched_metadata: {
+      title:
+        "“শান্তিপূর্ণ ক্ষমতা হস্তান্তরই সংকট” | ২৪ ঘণ্টা | 24 Ghonta । 27 October 2025 | Jamuna TV",
+      duration: "46:21",
+      upload_date: "20251027",
+      view_count: 94010,
+      uploader: "Jamuna TV",
     },
   },
   {
@@ -392,6 +559,14 @@ export const talkshow = [
       view_count: 20547,
       channel: "Global TV News",
     },
+    fetched_metadata: {
+      title:
+        "ভারতকে আমরা কখনো প্রভু মানতে চাই না: ওসমান হাদি | Osman Hadi | Global TV News",
+      duration: "5:27",
+      upload_date: "20251221",
+      view_count: 24416,
+      uploader: "Global TV News",
+    },
   },
   {
     category: "Talk Show",
@@ -400,7 +575,7 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1o_NjParOaiXQj6LHx6y7jhbsB_kxDc3g/view?usp=drive_link",
     source_title:
-      "আমি আমার শত্রুর সাথেও ইনসাফ করতে চাই, বলেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavis sion",
+      "আমি আমার শত্রুর সাথেও ইনসাফ করতে চাই, বলেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavis s sion",
     yt_source_url: "https://www.youtube.com/watch?v=7ktTNGMpgD0",
     yt_metadata: {
       title:
@@ -409,6 +584,14 @@ export const talkshow = [
       upload_date: "20251222",
       view_count: 1652,
       channel: "BanglaVision NEWS",
+    },
+    fetched_metadata: {
+      title:
+        "আমি আমার শত্রুর সাথেও ইনসাফ করতে চাই, বলেছিলেন ওসমান হাদি | Osman Hadi | Talk show | Banglavision",
+      duration: "2:07",
+      upload_date: "20251222",
+      view_count: 1676,
+      uploader: "BanglaVision NEWS",
     },
   },
   {
@@ -427,6 +610,13 @@ export const talkshow = [
       view_count: 2660,
       channel: "GTV News",
     },
+    fetched_metadata: {
+      title: "অরাজনৈতিক কথাটিও রাজনৈতিক শব্দ  | Sharif Osman Hadi | Gtv News",
+      duration: "6:48",
+      upload_date: "20250415",
+      view_count: 2660,
+      uploader: "GTV News",
+    },
   },
   {
     category: "Talk Show",
@@ -435,7 +625,7 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1wx6YPCYl4lR2Kape2HQmLgiHRtfpoeen/view?usp=drive_link",
     source_title:
-      "সংঘাতের জন‍্য মুখিয়ে সবাই | টাইমলাইন বাংলাদেশ | Timeline Bangladesh | gtv talk show | Gtv Live  e.",
+      "সংঘাতের জন‍্য মুখিয়ে সবাই | টাইমলাইন বাংলাদেশ | Timeline Bangladesh | gtv talk show | Gtv Live  e  e.",
     yt_source_url: "https://www.youtube.com/watch?v=D3r_szyZXXw",
     yt_metadata: {
       title:
@@ -445,6 +635,14 @@ export const talkshow = [
       view_count: 41347,
       channel: "GTV News",
     },
+    fetched_metadata: {
+      title:
+        "সংঘাতের জন‍্য মুখিয়ে সবাই | টাইমলাইন বাংলাদেশ | Timeline Bangladesh | gtv talk show | Gtv Live.",
+      duration: "1:05:24",
+      upload_date: "20251026",
+      view_count: 41354,
+      uploader: "GTV News",
+    },
   },
   {
     category: "Talk Show",
@@ -453,15 +651,23 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1ifaGq1qyEW5PPJrnWusgLWA3JYOTWcBD/view?usp=drive_link",
     source_title:
-      "সামনে নির্বাচন : প্রস্তুতি কতদূর ? টাইমলাইন বাংলাদেশ | Timeline Bangladesh | Talk Show | Gtv L    Live.",
+      "সামনে নির্বাচন : প্রস্তুতি কতদূর ? টাইমলাইন বাংলাদেশ | Timeline Bangladesh | Talk Show | Gtv L    L    Live.",
     yt_source_url: "https://www.youtube.com/watch?v=6SU-ml3ug8s",
     yt_metadata: {
       title:
-        "সামনে নির্বাচন : প্রস্তুতি কতদূর ? টাইমলাইন বাংলাদেশ | Timeline Bangladesh | Talk Show | Gtv Live.    ",
+        "সামনে নির্বাচন : প্রস্তুতি কতদূর ? টাইমলাইন বাংলাদেশ | Timeline Bangladesh | Talk Show | Gtv Live.         ",
       duration: "1:11:30",
       upload_date: "20251120",
       view_count: 32937,
       channel: "GTV News",
+    },
+    fetched_metadata: {
+      title:
+        "সামনে নির্বাচন : প্রস্তুতি কতদূর ? টাইমলাইন বাংলাদেশ | Timeline Bangladesh | Talk Show | Gtv Live.",
+      duration: "1:11:30",
+      upload_date: "20251120",
+      view_count: 32952,
+      uploader: "GTV News",
     },
   },
   {
@@ -481,6 +687,14 @@ export const talkshow = [
       view_count: 73272,
       channel: "ATN News Live",
     },
+    fetched_metadata: {
+      title:
+        "কোন পথে বাংলাদেশ? | সৈয়দা আসিফা আশরাফী পাপিয়া | শরিফ ওসমান হাদি | Sadhin Songlap | August 19, 2025",
+      duration: "39:17",
+      upload_date: "20250819",
+      view_count: 74866,
+      uploader: "ATN News Live",
+    },
   },
   {
     category: "Talk Show",
@@ -499,6 +713,14 @@ export const talkshow = [
       view_count: 18753,
       channel: "ATN News Live",
     },
+    fetched_metadata: {
+      title:
+        "কে খুলবে এত জট? | মাহবুব কামাল  | শরিফ ওসমান হাদি | Sadhin Songlap | 30 Oct 2025",
+      duration: "40:28",
+      upload_date: "20251030",
+      view_count: 18776,
+      uploader: "ATN News Live",
+    },
   },
   {
     category: "Talk Show",
@@ -507,7 +729,7 @@ export const talkshow = [
     drive_url:
       "https://drive.google.com/file/d/1-OX25YphTnUijQM0jO3s9-ThLWJcJ5DP/view?usp=drive_link",
     source_title:
-      "রাজনৈতিক সংকট, সমাধান কোন পথে? | ০৭ নভেম্বর ২০২৫ | সম্পাদকীয় | Sompadokio | Talk Show | Somoy   TV",
+      "রাজনৈতিক সংকট, সমাধান কোন পথে? | ০৭ নভেম্বর ২০২৫ | সম্পাদকীয় | Sompadokio | Talk Show | Somoy     TV",
     yt_source_url: "https://www.youtube.com/watch?v=1zIItHK5TX0",
     yt_metadata: {
       title:
@@ -516,6 +738,14 @@ export const talkshow = [
       upload_date: "20251107",
       view_count: 65364,
       channel: "SOMOY TV",
+    },
+    fetched_metadata: {
+      title:
+        "রাজনৈতিক সংকট, সমাধান কোন পথে? | ০৭ নভেম্বর ২০২৫ | সম্পাদকীয় | Sompadokio | Talk Show | Somoy TV",
+      duration: "30:14",
+      upload_date: "20251107",
+      view_count: 65382,
+      uploader: "SOMOY TV",
     },
   },
   {
@@ -535,6 +765,14 @@ export const talkshow = [
       view_count: 1243573,
       channel: "Jamuna TV",
     },
+    fetched_metadata: {
+      title:
+        "ডিসেম্বরের শুরুতে তফসিল | রাজনীতি | Rajniti | 28 August 2025 | Jamuna TV",
+      duration: "53:12",
+      upload_date: "20250828",
+      view_count: 1247289,
+      uploader: "Jamuna TV",
+    },
   },
   {
     category: "Talk Show",
@@ -553,6 +791,14 @@ export const talkshow = [
       view_count: 107193,
       channel: "Deepto News",
     },
+    fetched_metadata: {
+      title:
+        "'দ্যা হট সিটের' মুখোমুখিতে যা বলেছিলেন ওসমান হাদি l Osman Hadi l The Hot Seat l Talkshow",
+      duration: "47:32",
+      upload_date: "20250911",
+      view_count: 108759,
+      uploader: "Deepto News",
+    },
   },
   {
     category: "Talk Show",
@@ -569,6 +815,13 @@ export const talkshow = [
       upload_date: "20250820",
       view_count: 246672,
       channel: "Channel 24",
+    },
+    fetched_metadata: {
+      title: "কে কার পকেটে? | মুক্তবাক | Muktobak | ২০ আগস্ট ২০২৫ | Channel 24",
+      duration: "47:23",
+      upload_date: "20250820",
+      view_count: 248478,
+      uploader: "Channel 24",
     },
   },
   {
@@ -588,6 +841,14 @@ export const talkshow = [
       view_count: 389075,
       channel: "Jamuna TV",
     },
+    fetched_metadata: {
+      title:
+        "নভেম্বর পলিটিক্স | রাজনীতি | Rajniti | 2 November 2025 | Jamuna TV",
+      duration: "50:57",
+      upload_date: "20251102",
+      view_count: 390262,
+      uploader: "Jamuna TV",
+    },
   },
   {
     category: "Talk Show",
@@ -605,6 +866,14 @@ export const talkshow = [
       upload_date: "20250921",
       view_count: 402279,
       channel: "Jamuna TV",
+    },
+    fetched_metadata: {
+      title:
+        "ইলেকশন কি হবে? | রাজনীতি | Rajniti | 21 September 2025 | Jamuna TV",
+      duration: "51:07",
+      upload_date: "20250921",
+      view_count: 402333,
+      uploader: "Jamuna TV",
     },
   },
   {
@@ -624,6 +893,14 @@ export const talkshow = [
       view_count: 27227,
       channel: "Rtv News",
     },
+    fetched_metadata: {
+      title:
+        "জুলাই গণঅভ্যুত্থান : কতটা বদলেছে বাংলাদেশ? July Movement | Gonotontrer Songlap | Rtv Talkshow",
+      duration: "1:15:38",
+      upload_date: "20250702",
+      view_count: 27227,
+      uploader: "Rtv News",
+    },
   },
   {
     category: "Talk Show",
@@ -639,6 +916,13 @@ export const talkshow = [
       upload_date: "20251213",
       view_count: 30541,
       channel: "Desh TV News",
+    },
+    fetched_metadata: {
+      title: "ভোটের আনুষ্ঠানিকতা শুরু  | Desh Shonglap | Desh TV",
+      duration: "1:41:19",
+      upload_date: "20251213",
+      view_count: 30569,
+      uploader: "Desh TV News",
     },
   },
   {
@@ -658,6 +942,14 @@ export const talkshow = [
       view_count: 40120,
       channel: "Desh TV News",
     },
+    fetched_metadata: {
+      title:
+        "অন্তর্বর্তী সরকারের অধীনেই নির্বাচন? | Desh Samprotik | Talk Show | Desh TV",
+      duration: "30:17",
+      upload_date: "20251008",
+      view_count: 40128,
+      uploader: "Desh TV News",
+    },
   },
   {
     category: "Talk Show",
@@ -675,6 +967,13 @@ export const talkshow = [
       view_count: 187255,
       channel: "GTV News",
     },
+    fetched_metadata: {
+      title: "ডাকসু জাকসু এবং অতঃপর | টাইমলাইন বাংলাদেশ | Timeline Bangladesh.",
+      duration: "56:36",
+      upload_date: "20250913",
+      view_count: 187263,
+      uploader: "GTV News",
+    },
   },
   {
     category: "Talk Show",
@@ -691,6 +990,13 @@ export const talkshow = [
       upload_date: "20250702",
       view_count: 2222,
       channel: "GTV News",
+    },
+    fetched_metadata: {
+      title: "সেই জুলাই....এই জুলাই | সংবাদ সংলাপ | Songbad Songlap | Gtv News",
+      duration: "50:34",
+      upload_date: "20250702",
+      view_count: 2223,
+      uploader: "GTV News",
     },
   },
   {
@@ -710,6 +1016,14 @@ export const talkshow = [
       view_count: 54558,
       channel: "GTV News",
     },
+    fetched_metadata: {
+      title:
+        "এখনই আওয়ামী প্রশ্নের সুরাহা হবে?  টাইমলাইন বাংলাদেশ | Timeline Bangladesh.",
+      duration: "53:42",
+      upload_date: "20250510",
+      view_count: 54560,
+      uploader: "GTV News",
+    },
   },
   {
     category: "Talk Show",
@@ -727,6 +1041,14 @@ export const talkshow = [
       upload_date: "20250415",
       view_count: 7453,
       channel: "GTV News",
+    },
+    fetched_metadata: {
+      title:
+        "সংস্কৃতির শত্রু: সংস্কৃতির মিত্র | টাইমলাইন বাংলাদেশ | Timeline Bangladesh | talk show.",
+      duration: "54:32",
+      upload_date: "20250415",
+      view_count: 7454,
+      uploader: "GTV News",
     },
   },
 ];

@@ -27,22 +27,25 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-[#050000] text-white selection:bg-red-600/40 selection:text-red-100 font-sans">
       {/* 2. HERO SECTION */}
-      <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Layer */}
+      <header className="relative flex flex-col items-center justify-center overflow-hidden border-b border-white/5 pt-32 pb-32 md:pt-48 ">
+        {/* Background Layer - First Component এর স্টাইল অনুযায়ী */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-t from-[#050000] via-transparent to-black/80 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#050000] via-black/60 to-transparent z-10" />
           <img
             src="/static/osman.webp"
-            className="w-full h-full object-cover opacity-25 grayscale"
-            alt="Revolution Background"
+            className="w-full h-full object-cover opacity-30 grayscale saturate-50"
+            alt="Shaheed Osman Hadi"
           />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-900/10 blur-[150px] rounded-full" />
+
+          {/* Decorative Orbs - First Component এর পজিশন অনুযায়ী */}
+          <div className="absolute top-1/4 left-1/4 w-[200px] h-[200px] md:w-[400px] md:h-[400px] bg-red-900/10 blur-[80px] md:blur-[150px] rounded-full animate-pulse" />
+          <div className="absolute bottom-1/4 right-1/4 w-[150px] h-[150px] md:w-[300px] md:h-[300px] bg-red-700/5 blur-[70px] md:blur-[120px] rounded-full delay-700 animate-pulse" />
         </div>
 
-        {/* Content Layer */}
-        <div className="relative h-fit mt-[100px] z-20 text-center px-6 w-full max-w-5xl flex flex-col items-center">
-          {/* 1. Top Badge - Made smaller and cleaner */}
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 rounded-full bg-red-600/10 border border-red-600/20 text-red-500 text-[10px] md:text-xs font-bold backdrop-blur-md tracking-[0.2em] uppercase">
+        {/* Content Layer - Positioning centered exactly like the first one */}
+        <div className="relative z-20 text-center px-6 w-full max-w-5xl flex flex-col items-center">
+          {/* 1. Top Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full bg-red-600/10 border border-red-600/20 text-red-500 text-[10px] md:text-xs font-black tracking-[0.2em] md:tracking-[0.3em] uppercase">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
@@ -50,23 +53,23 @@ const Home = () => {
             ১৯৯৩ — ২০২৫
           </div>
 
-          {/* 2. Main Name - Significant Scale Up */}
-          <div className="relative">
-            <h1 className="text-5xl md:text-8xl font-black text-white tracking-tighter leading-none">
+          {/* 2. Main Name */}
+          <div className="relative mb-6">
+            <h1 className="text-4xl md:text-8xl font-black text-white tracking-tighter leading-[0.9]">
               শহীদ শরীফ ওসমান <br />
-              <span className="text-red-600 drop-shadow-[0_0_30px_rgba(220,38,38,0.5)]">
+              <span className="text-red-700 drop-shadow-[0_0_50px_rgba(185,28,28,0.5)]">
                 বিন হাদি
               </span>
             </h1>
           </div>
 
           {/* 3. Subtitle / Designation */}
-          <p className="text-zinc-400 font-bold uppercase tracking-[0.3em] text-xs md:text-sm">
+          <p className="text-zinc-400 font-bold uppercase tracking-[0.3em] text-xs md:text-sm mb-8">
             ইনকিলাব মঞ্চের মুখপাত্র
           </p>
 
-          {/* 4. Quote - Placed in a stylized container */}
-          <div className="max-w-2xl my-4">
+          {/* 4. Quote */}
+          <div className="max-w-2xl mb-12">
             <h2 className="text-xl md:text-3xl font-medium italic text-zinc-200 leading-relaxed">
               <span className="text-red-600 text-4xl mr-2 font-serif">“</span>
               মৃত্যুর ফায়সালা জমীনে না, আসমানে হয়
@@ -74,7 +77,7 @@ const Home = () => {
             </h2>
           </div>
 
-          {/* 5. Action Buttons - More compact on mobile */}
+          {/* 5. Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             <Link
               href="/videos"
@@ -107,7 +110,7 @@ const Home = () => {
           <h3 className="text-red-600 font-black uppercase tracking-[0.3em] mb-4 flex items-center gap-2 text-sm md:text-base">
             <Zap size={18} /> Identity Matrix
           </h3>
-          <h2 className="text-3xl md:text-6xl font-black leading-tight">
+          <h2 className="text-3xl md:text-5xl font-black leading-tight">
             বিবিধ পরিচয়ে ওসমান হাদি
           </h2>
         </div>
@@ -172,7 +175,7 @@ const Home = () => {
 
           {/* Identity: The Legacy (Martyrdom Card) */}
           <div className="md:col-span-1 bg-red-700 rounded-[2rem] md:rounded-[2.5rem] p-8 flex flex-col justify-center items-center text-center space-y-4 shadow-2xl shadow-red-700/40 hover:scale-[1.02] transition-transform">
-            <span className="text-5xl md:text-6xl font-black tracking-tighter text-white">
+            <span className="text-3xl md:text-5xl font-black tracking-tighter text-white">
               ২০২৫
             </span>
             <div className="space-y-1">
@@ -189,8 +192,11 @@ const Home = () => {
       </section>
 
       {/* 4. PILLARS OF PHILOSOPHY */}
-      <section id="vision" className="py-24 px-6 bg-black">
-        <div className="max-w-7xl mx-auto">
+      <section
+        id="vision"
+        className="max-w-[1400px] mx-auto py-24 px-6 bg-black"
+      >
+        <div className="w-full mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 rounded-3xl overflow-hidden border border-white/5">
             <PillarCard
               icon={<Scale size={32} />}
@@ -236,7 +242,7 @@ const Home = () => {
               <h3 className="text-red-600 font-black uppercase tracking-[0.4em] flex items-center gap-2">
                 <Maximize2 size={16} /> Visual Legacy
               </h3>
-              <h2 className="text-5xl md:text-7xl font-black tracking-tighter">
+              <h2 className="text-3xl md:text-5xl font-black tracking-tighter">
                 স্মৃতির কোলাজ <br />
                 <span
                   className="text-zinc-800"
@@ -297,7 +303,7 @@ const Home = () => {
             {/* Middle Square */}
             <Link
               href={`/gallery`}
-              className="md:col-span-3 md:row-span-2 relative group rounded-[2.5rem] overflow-hidden border border-white/5 bg-zinc-950 flex flex-col items-center justify-center p-8 text-center border-dashed border-zinc-800"
+              className="md:col-span-3 md:row-span-1 hover:border-red-500/40 relative group rounded-[2.5rem] overflow-hidden border border-white/5 bg-zinc-950 flex flex-col items-center justify-center p-8 text-center border-dashed border-zinc-800"
             >
               <History
                 size={48}
@@ -311,8 +317,17 @@ const Home = () => {
               </h3>
             </Link>
 
+            <div className="md:col-span-3 md:row-span-2 relative group rounded-[2.5rem] overflow-hidden border border-white/5">
+              <div className="absolute inset-0 bg-red-700 mix-blend-multiply opacity-20" />
+              <img
+                src={osmanarchiveImages[59].url}
+                className="w-full h-full object-cover object-top"
+                alt="Detail"
+              />
+            </div>
+
             {/* Bottom Wide */}
-            <div className="md:col-span-6 md:row-span-2 relative group rounded-[2.5rem] overflow-hidden border border-white/5">
+            <div className="md:col-span-6 md:row-span-3 relative group rounded-[2.5rem] overflow-hidden border border-white/5">
               <img
                 src={osmanarchiveImages[2].url}
                 className="w-full h-full object-cover opacity-40 group-hover:opacity-100 transition-all"
@@ -326,7 +341,7 @@ const Home = () => {
             </div>
 
             {/* Smallest Detail */}
-            <div className="md:col-span-3 md:row-span-1 relative group rounded-[2.5rem] overflow-hidden border border-white/5">
+            <div className="md:col-span-3 md:row-span-2 relative group rounded-[2.5rem] overflow-hidden border border-white/5">
               <div className="absolute inset-0 bg-red-700 mix-blend-multiply opacity-20" />
               <img
                 src={osmanarchiveImages[3].url}
@@ -335,7 +350,7 @@ const Home = () => {
               />
             </div>
             {/* Smallest Detail */}
-            <div className="md:col-span-3 md:row-span-1 relative group rounded-[2.5rem] overflow-hidden border border-white/5">
+            <div className="md:col-span-3 md:row-span-2 relative group rounded-[2.5rem] overflow-hidden border border-white/5">
               <div className="absolute inset-0 bg-red-700 mix-blend-multiply opacity-20" />
               <img
                 src={osmanarchiveImages[4].url}
@@ -405,7 +420,7 @@ export const SectionHeader = ({ number, title, sub }) => (
       {number}
     </span>
     <div>
-      <h2 className="text-4xl md:text-6xl font-black tracking-tighter leading-none">
+      <h2 className="text-3xl md:text-5xl font-black tracking-tighter leading-none">
         {title}
       </h2>
       <p className="text-red-600 text-[10px] font-black uppercase tracking-[0.5em] mt-3">

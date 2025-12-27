@@ -7,8 +7,8 @@ import { Play } from "lucide-react";
 
 const DiscussionVideo = () => {
   return (
-    <section className="py-20 md:py-32 px-4 md:px-6 bg-black">
-      <div className="max-w-7xl mx-auto">
+    <section className="max-w-[1400px] mx-auto py-20 md:py-32 px-6 bg-black">
+      <div className="mx-auto">
         <SectionHeader
           number="01"
           title="রণাঙ্গনের কন্ঠস্বর"

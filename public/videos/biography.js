@@ -14,6 +14,13 @@ export const biography = [
       view_count: 268995,
       channel: "Osman Hadi Official ",
     },
+    fetched_metadata: {
+      title: "যেভাবে বেড়ে উঠি I ১ম কিস্তি I Osman Hadi Autobiography",
+      duration: "14:09",
+      upload_date: "20251205",
+      view_count: 276230,
+      uploader: "Osman Hadi Official ",
+    },
   },
   {
     category: "Biography",
@@ -30,6 +37,13 @@ export const biography = [
       upload_date: "20251208",
       view_count: 52717,
       channel: "Osman Hadi Official ",
+    },
+    fetched_metadata: {
+      title: "যেভাবে বেড়ে উঠি I ২য় কিস্তি I Osman Hadi Autobiography 2nd",
+      duration: "36:49",
+      upload_date: "20251208",
+      view_count: 54235,
+      uploader: "Osman Hadi Official ",
     },
   },
 ];

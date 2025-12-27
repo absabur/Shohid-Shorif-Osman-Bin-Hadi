@@ -14,6 +14,13 @@ export const lecture = [
       view_count: 142998,
       channel: "University of Scholars",
     },
+    fetched_metadata: {
+      title: "Bangladesh Studies  | Osman Hadi | BBA | University of Scholars",
+      duration: "47:10",
+      upload_date: "20250122",
+      view_count: 150783,
+      uploader: "University of Scholars",
+    },
   },
   {
     category: "Lecture",
@@ -32,6 +39,14 @@ export const lecture = [
       view_count: 661408,
       channel: "University of Scholars",
     },
+    fetched_metadata: {
+      title:
+        "Bangladesh Studies | Lecture -01 | Osman Hadi | BBA | University of Scholars",
+      duration: "33:53",
+      upload_date: "20250107",
+      view_count: 669484,
+      uploader: "University of Scholars",
+    },
   },
   {
     category: "Lecture",
@@ -49,6 +64,14 @@ export const lecture = [
       upload_date: "20241227",
       view_count: 2712,
       channel: "University of Scholars",
+    },
+    fetched_metadata: {
+      title:
+        "Bangladesh Studies | Lecture -02 | Osman Hadi | BBA | University of Scholars",
+      duration: "34:08",
+      upload_date: "20241227",
+      view_count: 2913,
+      uploader: "University of Scholars",
     },
   },
 ];

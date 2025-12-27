@@ -3,7 +3,7 @@ import React from "react";
 
 const BackSection = ({ links, current }) => {
   return (
-    <div className="mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/5 pb-6">
+    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6">
       {/* 1. Removed line-clamp from the parent flex 
           2. Added min-w-0 to allow the flex child to shrink
       */}

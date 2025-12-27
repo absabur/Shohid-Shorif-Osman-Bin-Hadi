@@ -8,8 +8,8 @@ import { getThumbnailSrc } from "@/app/videos/page";
 
 const SpeechesVideo = () => {
   return (
-    <section className="max-w-7xl mx-auto py-32 bg-[#050000] border-b border-white/5 relative">
-      <div className="px-6 mb-16 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-8">
+    <section className="max-w-[1400px] mx-auto py-32 bg-[#050000] border-b border-white/5 relative">
+      <div className="px-6 mb-16 max-w-4xl flex flex-col md:flex-row justify-between items-end gap-8">
         <SectionHeader
           number="02"
           title="চিন্তা ও দর্শন"

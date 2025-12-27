@@ -16,6 +16,14 @@ export const peoplesLove = [
       view_count: 821231,
       channel: "Face The People",
     },
+    fetched_metadata: {
+      title:
+        "ওসমান হাদির অবস্থা বলতে গিয়ে কান্নায় ভেঙে পড়লেন সাবেক র‍্যাব কর্মকর্তা | Face The People",
+      duration: "5:00",
+      upload_date: "20251212",
+      view_count: 821838,
+      uploader: "Face The People",
+    },
   },
   {
     category: "Love",
@@ -24,15 +32,23 @@ export const peoplesLove = [
     drive_url:
       "https://drive.google.com/file/d/1jR5wwB2dMbsHmCGeEIaAIYReLSvkkFm6/view?usp=drive_link",
     source_title:
-      "হাদির সন্তানের কথা বলে কান্নায় ভেঙে পড়লেন হাদির ভাই, কাঁদলেন লাখ লাখ মানুষ | Hadi grave | Juga   antor",
+      "হাদির সন্তানের কথা বলে কান্নায় ভেঙে পড়লেন হাদির ভাই, কাঁদলেন লাখ লাখ মানুষ | Hadi grave | Juga   a   antor",
     yt_source_url: "https://www.youtube.com/watch?v=kGOvSKjF5zU",
     yt_metadata: {
       title:
-        "হাদির সন্তানের কথা বলে কান্নায় ভেঙে পড়লেন হাদির ভাই, কাঁদলেন লাখ লাখ মানুষ | Hadi grave | Jugantor   ",
+        "হাদির সন্তানের কথা বলে কান্নায় ভেঙে পড়লেন হাদির ভাই, কাঁদলেন লাখ লাখ মানুষ | Hadi grave | Jugantor       ",
       duration: "7:36",
       upload_date: "20251220",
       view_count: 81833,
       channel: "Daily Jugantor",
+    },
+    fetched_metadata: {
+      title:
+        "হাদির সন্তানের কথা বলে কান্নায় ভেঙে পড়লেন হাদির ভাই, কাঁদলেন লাখ লাখ মানুষ | Hadi grave | Jugantor",
+      duration: "7:36",
+      upload_date: "20251220",
+      view_count: 82212,
+      uploader: "Daily Jugantor",
     },
   },
   {
@@ -52,6 +68,14 @@ export const peoplesLove = [
       view_count: 252163,
       channel: "Channel 24",
     },
+    fetched_metadata: {
+      title:
+        "জানাজাস্থলেই জোহরের নামাজে আদায় লাখো মানুষের | Osman Hadi | Janaza | Channel 24",
+      duration: "5:23",
+      upload_date: "20251220",
+      view_count: 256208,
+      uploader: "Channel 24",
+    },
   },
   {
     category: "Love",
@@ -60,15 +84,23 @@ export const peoplesLove = [
     drive_url:
       "https://drive.google.com/file/d/1hYNk-Yhs0XuMnlXNE6ufu1p_ewnnGbx7/view?usp=drive_link",
     source_title:
-      "মহাকালের বুকে ইতিহাস রচনা করে বিপ্লবী ওসমান হাদির বিদায়! | Sharif Osman Hadi | Hadi Funeral |   Ekhon",
+      "মহাকালের বুকে ইতিহাস রচনা করে বিপ্লবী ওসমান হাদির বিদায়! | Sharif Osman Hadi | Hadi Funeral |     Ekhon",
     yt_source_url: "https://www.youtube.com/watch?v=GEQn9szeqW8",
     yt_metadata: {
       title:
-        "মহাকালের বুকে ইতিহাস রচনা করে বিপ্লবী ওসমান হাদির বিদায়! | Sharif Osman Hadi | Hadi Funeral | Ekhon n",
+        "মহাকালের বুকে ইতিহাস রচনা করে বিপ্লবী ওসমান হাদির বিদায়! | Sharif Osman Hadi | Hadi Funeral | Ekhon n n",
       duration: "4:51",
       upload_date: "20251220",
       view_count: 341933,
       channel: "EKHON TV",
+    },
+    fetched_metadata: {
+      title:
+        "মহাকালের বুকে ইতিহাস রচনা করে বিপ্লবী ওসমান হাদির বিদায়! | Sharif Osman Hadi | Hadi Funeral | Ekhon n",
+      duration: "4:51",
+      upload_date: "20251220",
+      view_count: 345861,
+      uploader: "EKHON TV",
     },
   },
   {
@@ -88,6 +120,14 @@ export const peoplesLove = [
       view_count: 289818,
       channel: "Jamuna TV",
     },
+    fetched_metadata: {
+      title:
+        "জনতার ভালোবাসা আর চোখের জলে হাদিকে বিদায় | Osman Hadi | Jamuna TV",
+      duration: "3:08",
+      upload_date: "20251220",
+      view_count: 293320,
+      uploader: "Jamuna TV",
+    },
   },
   {
     category: "Love",
@@ -104,6 +144,13 @@ export const peoplesLove = [
       view_count: 141971,
       channel: "Rose Tv24",
     },
+    fetched_metadata: {
+      title: "ওসমান হাদীকে নিয়ে গোপন তথ্য দিলেন শায়খ আহমাদুল্লাহ।",
+      duration: "8:54",
+      upload_date: "20251219",
+      view_count: 142214,
+      uploader: "Rose Tv24",
+    },
   },
   {
     category: "Love",
@@ -119,6 +166,13 @@ export const peoplesLove = [
       upload_date: "20251218",
       view_count: 463148,
       channel: "Ahmadullah",
+    },
+    fetched_metadata: {
+      title: "শাহাদাত বরণ করেছেন বিপ্লবী ওসমান হাদি",
+      duration: "3:16",
+      upload_date: "20251218",
+      view_count: 463648,
+      uploader: "Ahmadullah",
     },
   },
   {
@@ -138,6 +192,14 @@ export const peoplesLove = [
       view_count: 1164,
       channel: "Ashar Alo TV",
     },
+    fetched_metadata: {
+      title:
+        "ওসমান হাদীকে নিয়ে শায়খ আহমাদুল্লাহ অগ্নিঝড়া বক্তব্য দিলেন | Osman Hadi | Shaikh Ahmadullah",
+      duration: "31:25",
+      upload_date: "20251220",
+      view_count: 1169,
+      uploader: "Ashar Alo TV",
+    },
   },
   {
     category: "Love",
@@ -156,6 +218,14 @@ export const peoplesLove = [
       view_count: 23,
       channel: "Khulna Gazette",
     },
+    fetched_metadata: {
+      title:
+        "শহীদ ওসমান হাদির জানাজা অনেক বার্তা দিচ্ছে: শায়খ আহমাদুল্লাহ | Khulna Gazette",
+      duration: "2:01",
+      upload_date: "20251220",
+      view_count: 23,
+      uploader: "Khulna Gazette",
+    },
   },
   {
     category: "Love",
@@ -164,15 +234,23 @@ export const peoplesLove = [
     drive_url:
       "https://drive.google.com/file/d/1MgJH0-v4bZTGWpp3N_KCzq9Z0gt7ObAt/view?usp=drive_link",
     source_title:
-      "ওসমান হাদির জানাজায় প্রধান উপদেষ্টার বক্তব্য | Osman Hadi Janaza | Chief Advisor | Manik Mia A   Avenue",
+      "ওসমান হাদির জানাজায় প্রধান উপদেষ্টার বক্তব্য | Osman Hadi Janaza | Chief Advisor | Manik Mia A   A   Avenue",
     yt_source_url: "https://www.youtube.com/watch?v=YYUxPHGhA5U",
     yt_metadata: {
       title:
-        "ওসমান হাদির জানাজায় প্রধান উপদেষ্টার বক্তব্য | Osman Hadi Janaza | Chief Advisor | Manik Mia Avenue   e",
+        "ওসমান হাদির জানাজায় প্রধান উপদেষ্টার বক্তব্য | Osman Hadi Janaza | Chief Advisor | Manik Mia Avenue   e   e",
       duration: "4:59",
       upload_date: "20251220",
       view_count: 1042889,
       channel: "ATN Bangla News",
+    },
+    fetched_metadata: {
+      title:
+        "ওসমান হাদির জানাজায় প্রধান উপদেষ্টার বক্তব্য | Osman Hadi Janaza | Chief Advisor | Manik Mia Avenue   e",
+      duration: "4:59",
+      upload_date: "20251220",
+      view_count: 1049205,
+      uploader: "ATN Bangla News",
     },
   },
   {
@@ -192,6 +270,14 @@ export const peoplesLove = [
       view_count: 69182,
       channel: "SOMOY TV",
     },
+    fetched_metadata: {
+      title:
+        "ড্রোনচিত্রে হাদির জানাজার জনসমুদ্র | Osman Hadi’s Janaza | Drone View | Somoy TV",
+      duration: "1:04",
+      upload_date: "20251220",
+      view_count: 72173,
+      uploader: "SOMOY TV",
+    },
   },
   {
     category: "Love",
@@ -209,6 +295,14 @@ export const peoplesLove = [
       upload_date: "20251220",
       view_count: 267273,
       channel: "Ekattor TV",
+    },
+    fetched_metadata: {
+      title:
+        "শহীদ ওসমান হাদিকে দাফন; অঝোরে কাঁদলেন হাদির ভাই | Osman Hadi | Ekattor TV",
+      duration: "3:36",
+      upload_date: "20251220",
+      view_count: 267587,
+      uploader: "Ekattor TV",
     },
   },
   {
@@ -228,6 +322,14 @@ export const peoplesLove = [
       view_count: 336075,
       channel: "Channel 24",
     },
+    fetched_metadata: {
+      title:
+        "শহিদ ওসমান হাদিকে দাফন; অঝোরে কাঁদলেন হাসনাত আবদুল্লাহ | Osman Hadi | Channel 24",
+      duration: "3:05",
+      upload_date: "20251220",
+      view_count: 336287,
+      uploader: "Channel 24",
+    },
   },
   {
     category: "Love",
@@ -244,6 +346,13 @@ export const peoplesLove = [
       view_count: 32203,
       channel: "BanglaVision NEWS",
     },
+    fetched_metadata: {
+      title: "হাদির কবরের মাটি ছুঁয়ে অঝোরে কাঁদলেন সালমান | Osman Hadi",
+      duration: "1:46",
+      upload_date: "20251220",
+      view_count: 33027,
+      uploader: "BanglaVision NEWS",
+    },
   },
   {
     category: "Love",
@@ -254,6 +363,14 @@ export const peoplesLove = [
     source_title:
       "হাদির সন্তানের কথা শুনে অঝরে কাঁদলেন সাদিক কায়েম-হাসনাত আব্দুল্লাহ",
     yt_source_url: "",
+    fetched_metadata: {
+      title:
+        "হাদির সন্তানের কথা শুনে অঝরে কাঁদলেন সাদিক কায়েম-হাসনাত আব্দুল্লাহ | Osman Hadi | Jugantor",
+      duration: "4:08",
+      upload_date: "20251220",
+      view_count: 6846850,
+      uploader: "Daily Jugantor",
+    },
   },
   {
     category: "Love",
@@ -263,6 +380,13 @@ export const peoplesLove = [
       "https://drive.google.com/file/d/1EQPIm82yNpxMD3oJ1Zka9-YXE95ztD23/view?usp=drive_link",
     source_title: "ওসমান হাদির জন্য কাঁদলেন রিকশাচালক, চাইলেন হত্যার বিচার।",
     yt_source_url: "",
+    fetched_metadata: {
+      title: "ওসমান হাদির জন্য কাঁদলেন রিকশাচালক, চাইলেন হত্যার বিচার।",
+      duration: "1:32",
+      upload_date: "20251221",
+      view_count: 69616,
+      uploader: "Ctgpost.news",
+    },
   },
   {
     category: "Love",
@@ -272,6 +396,13 @@ export const peoplesLove = [
       "https://drive.google.com/file/d/1kEP3LlCWoSLhKcKpz4jZdtwl00Vfg62a/view?usp=drive_link",
     source_title: "ওসমান হাদির কথা বলতে যেয়ে কাঁদলেন আব্দুন নূর তুষার",
     yt_source_url: "",
+    fetched_metadata: {
+      title: "ওসমান হাদির কথা বলতে যেয়ে কাঁদলেন আব্দুন নূর তুষার",
+      duration: "5:32",
+      upload_date: "20251213",
+      view_count: 533865,
+      uploader: "Channel 24 News",
+    },
   },
   {
     category: "Love",
@@ -282,6 +413,14 @@ export const peoplesLove = [
     source_title:
       "হাদির জন্য মিছিলে যোগ দিয়ে কান্নায় ভেঙ্গে পরলেন এক পিতা। তিনি কাঁদলেন সাথে সবাইকে কাঁদালেন",
     yt_source_url: "",
+    fetched_metadata: {
+      title:
+        "13 reactions | হাদির জন্য মিছিলে যোগ দিয়ে কান্নায় ভেঙ্গে পরলেন এক পিতা। তিনি কাঁদলেন সাথে সবাইকে কা   াঁদালেন🥲💔 | Mehedi Hassan Ashik",
+      duration: "41",
+      upload_date: "20251224",
+      view_count: 83,
+      uploader: "Mehedi Hassan Ashik",
+    },
   },
   {
     category: "Love",
@@ -291,6 +430,13 @@ export const peoplesLove = [
       "https://drive.google.com/file/d/1UXh5bAMjS-75zjqIgl-AJAF8eAGVNNod/view?usp=drive_link",
     source_title: "কাদলেন ওসমান হাদির বড় ভাই",
     yt_source_url: "",
+    fetched_metadata: {
+      title: "কাদলেন ওসমান হাদির বড় ভাই",
+      duration: "46",
+      upload_date: "20251221",
+      view_count: 1808,
+      uploader: "July36",
+    },
   },
   {
     category: "Love",
@@ -301,6 +447,14 @@ export const peoplesLove = [
     source_title:
       "শহীদ শরীফ উসমান হাদি ও তার পরিবারের জন্য দোয়া করে যা বললেন, ___ড. এনায়েতুল্লাহ আব্বাসী হুজুর",
     yt_source_url: "",
+    fetched_metadata: {
+      title:
+        "33K views · 4K reactions | শহীদ শরীফ উসমান হাদি ও তার পরিবারের জন্য দোয়া করে যা বললেন, ___ড. এনায়েততুল্লাহ আব্বাসী হুজুর | Mohd Sifat Hussain",
+      duration: "59",
+      upload_date: "20251220",
+      view_count: 17269,
+      uploader: "Mohd Sifat Hussain",
+    },
   },
   {
     category: "Love",
@@ -311,6 +465,14 @@ export const peoplesLove = [
     source_title:
       "দোহাই, শুধু মস্তিষ্কটা খেয়ো না আমার তা হলে শীঘ্রই দাস হয়ে যাবে তোমরাও। - শহীদ ওসমান হাদি",
     yt_source_url: "",
+    fetched_metadata: {
+      title:
+        "2.5M views · 161K reactions | দোহাই, শুধু মস্তিষ্কটা খেয়ো না আমার তা হলে শীঘ্রই দাস হয়ে যাবে তোমরাও    ও। - শহীদ ওসমান হাদি | ইনকিলাব মঞ্চ",
+      duration: "25",
+      upload_date: "20251223",
+      view_count: 1315421,
+      uploader: "ইনকিলাব মঞ্চ",
+    },
   },
   {
     category: "Love",
@@ -319,15 +481,23 @@ export const peoplesLove = [
     drive_url:
       "https://drive.google.com/file/d/181ZfqzWQW6YNnhccDLM0hiaCmcji8q_Z/view?usp=drive_link",
     source_title:
-      "হাদির সাথে নির্বাচনী প্রচারণা অংশগ্রহণ করা আর হলো না বলে কান্নায় ভেঙে পড়লেন এক ব্যাক্তি | Osma     an Hadi",
+      "হাদির সাথে নির্বাচনী প্রচারণা অংশগ্রহণ করা আর হলো না বলে কান্নায় ভেঙে পড়লেন এক ব্যাক্তি | Osma     a     an Hadi",
     yt_source_url: "https://www.youtube.com/watch?v=K1v_lApgPek",
     yt_metadata: {
       title:
-        "হাদির সাথে নির্বাচনী প্রচারণা অংশগ্রহণ করা আর হলো না বলে কান্নায় ভেঙে পড়লেন এক ব্যাক্তি | Osman Had     di",
+        "হাদির সাথে নির্বাচনী প্রচারণা অংশগ্রহণ করা আর হলো না বলে কান্নায় ভেঙে পড়লেন এক ব্যাক্তি | Osman Had     d     di",
       duration: "1:09",
       upload_date: "20251220",
       view_count: 56,
       channel: "Naya Diganta News",
+    },
+    fetched_metadata: {
+      title:
+        "হাদির সাথে নির্বাচনী প্রচারণা অংশগ্রহণ করা আর হলো না বলে কান্নায় ভেঙে পড়লেন এক ব্যাক্তি | Osman Had     di",
+      duration: "1:09",
+      upload_date: "20251220",
+      view_count: 57,
+      uploader: "Naya Diganta News",
     },
   },
 ];

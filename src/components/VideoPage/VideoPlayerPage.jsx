@@ -12,6 +12,7 @@ import { getYouTubeID } from "@/utils/ytId";
 import Link from "next/link";
 import { videoCategories } from "@/app/videos/page";
 import BackSection from "../common/BackSection";
+import { formatDuration, formatUploadDate } from "../VideosPage";
 
 const VideoPlayerPage = async ({ params, searchParams }) => {
   const resolvedParams = await params;
@@ -93,7 +94,7 @@ const VideoPlayerPage = async ({ params, searchParams }) => {
 
   return (
     <div className="min-h-screen bg-[#050000] text-white selection:bg-red-600/40 font-sans">
-      <main className="pt-24 md:pt-28 pb-20 px-4 md:px-6 max-w-[1400px] mx-auto">
+      <main className="pt-24 md:pt-28 pb-20 px-6 max-w-[1400px] mx-auto">
         <BackSection
           links={[
             { path: "/", text: "", icon: <Home size={15} /> },
@@ -164,11 +165,20 @@ const VideoPlayerPage = async ({ params, searchParams }) => {
             {/* INFO CARD */}
             <div className="bg-zinc-950/50 border border-white/5 rounded-2xl md:rounded-[2.5rem] p-6 md:p-10 shadow-xl">
               <div className="flex flex-col gap-4">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center flex-wrap space-x-3">
                   <div className="w-1 h-6 bg-red-700 rounded-full" />
                   <span className="text-red-500 text-[10px] font-black uppercase tracking-widest">
                     {video.category}
                   </span>
+
+                  <div className="ml-auto">
+                    <span className="py-1 flex items-center text-zinc-300 rounded-lg text-[10px] font-black tracking-widest uppercase">
+                      {formatDuration(video.fetched_metadata.duration)}
+                    </span>
+                    <span className="text-sm text-zinc-500 font-bold uppercase">
+                      {formatUploadDate(video.fetched_metadata.upload_date)}
+                    </span>
+                  </div>
                 </div>
                 <h2 className="text-xl md:text-3xl font-black leading-tight tracking-tighter text-zinc-100">
                   {video.source_title}

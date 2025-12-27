@@ -22,9 +22,9 @@ import {
 
 const AboutPage = () => {
   return (
-    <div className="bg-[#050000] text-white selection:bg-red-600/40 font-sans pb-32">
+    <div className="bg-[#050000] min-h-seceen text-white selection:bg-red-600/40 font-sans pb-32">
       {/* 1. CINEMATIC HERO HEADER - Height Free & Responsive */}
-      <section className="relative flex flex-col items-center justify-center overflow-hidden border-b border-white/5 pt-32 pb-48 md:pt-48 md:pb-64">
+      <section className="relative flex flex-col items-center justify-center overflow-hidden border-b border-white/5 pt-32 pb-48 md:pt-48">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-t from-[#050000] via-black/60 to-transparent z-10" />
           <img
@@ -145,7 +145,7 @@ const AboutPage = () => {
         {/* 4. CHRONOLOGY TIMELINE */}
         <section className="grid lg:grid-cols-2 gap-16 md:gap-20 items-start">
           <div className="lg:sticky lg:top-32 space-y-6 md:space-y-8">
-            <h2 className="text-4xl md:text-7xl font-black tracking-tighter leading-none">
+            <h2 className="text-3xl md:text-5xl font-black tracking-tighter leading-none">
               বিপ্লবীর <br /> <span className="text-red-600">টাইমলাইন</span>
             </h2>
             <p className="text-zinc-500 text-base md:text-lg leading-relaxed max-w-md">
@@ -193,7 +193,7 @@ const AboutPage = () => {
             <h2 className="text-red-600 font-black uppercase tracking-[0.4em] text-xs">
               Aims & Values
             </h2>
-            <h3 className="text-3xl md:text-6xl font-black tracking-tighter">
+            <h3 className="text-3xl md:text-5xl font-black tracking-tighter">
               আদর্শিক ভিত্তি
             </h3>
           </div>
@@ -221,7 +221,7 @@ const AboutPage = () => {
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-zinc-900 border border-white/10 text-zinc-500 font-black text-[10px] uppercase tracking-widest">
             <MapPin size={14} className="text-red-600" /> The Eternal Abode
           </div>
-          <h2 className="text-3xl md:text-7xl font-black tracking-tighter">
+          <h2 className="text-3xl md:text-5xl font-black tracking-tighter">
             নজরুলের পাশে <br className="hidden md:block" />{" "}
             <span className="text-red-700">অনন্ত শয়ানে</span>
           </h2>

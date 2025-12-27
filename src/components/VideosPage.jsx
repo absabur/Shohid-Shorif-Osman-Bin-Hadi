@@ -18,18 +18,41 @@ import BackSection from "./common/BackSection";
 const VideosPage = ({ resolvedParams }) => {
   const activeTab = resolvedParams.category || "All";
   const searchQuery = resolvedParams.search || "";
+  const sortBy = resolvedParams.sort || "";
 
   const currentCategory =
     videoCategories.find((v) => v.id === activeTab) || videoCategories[0];
 
   const filteredVideos = currentCategory.videos
-    .sort((a, b) => b?.yt_metadata?.view_count - a?.yt_metadata?.view_count)
-    .filter((video) => {
-      const matchesSearch = video.source_title
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase());
+    .filter((video) =>
+      video.source_title.toLowerCase().includes(searchQuery.toLowerCase())
+    )
+    .sort((a, b) => {
+      const metaA = a?.fetched_metadata;
+      const metaB = b?.fetched_metadata;
 
-      return matchesSearch;
+      switch (sortBy) {
+        case "views":
+          return (metaB?.view_count || 0) - (metaA?.view_count || 0);
+
+        case "duration":
+          return (
+            durationToSeconds(metaB?.duration) -
+            durationToSeconds(metaA?.duration)
+          );
+
+        case "oldest":
+          return (metaA?.upload_date || "") > (metaB?.upload_date || "")
+            ? 1
+            : -1;
+
+        case "newest":
+          return (metaA?.upload_date || "") > (metaB?.upload_date || "")
+            ? -1
+            : 1;
+        default:
+          return (metaB?.view_count || 0) - (metaA?.view_count || 0);
+      }
     });
 
   const ITEMS_PER_PAGE = 12;
@@ -51,11 +74,8 @@ const VideosPage = ({ resolvedParams }) => {
         />
         <div className="flex flex-col justify-between items-end gap-10">
           <div className="space-y-4 w-full">
-            <h3 className="text-red-600 font-black uppercase flex items-center gap-2">
-              <Play size={16} fill="currentColor" /> Cinematic Vault
-            </h3>
             <h2 className="text-xl md:text-3xl font-black">
-              ভিডিও আর্কাইভ (YouTube Collection)
+              ভিডিও আর্কাইভ (Video Collection)
             </h2>
             <p className="text-zinc-500 max-w-xl text-lg">
               ওসমান হাদীর আন্দোলন, বক্তব্য এবং ব্যক্তিগত জীবনের দুর্লভ ভিডিও
@@ -70,6 +90,9 @@ const VideosPage = ({ resolvedParams }) => {
 
         <div className="my-4 lg:my-8 flex flex-col md:flex-row gap-4 w-full items-stretch">
           {/* Left: Total Vault Badge */}
+          <SearchField />
+
+          {/* Right: Search Field */}
           <div className="group flex flex-1 md:flex-initial md:w-1/3 items-center gap-4 bg-zinc-950 border border-white/5 px-6 py-2 rounded-2xl hover:border-red-600/30 transition-all shadow-xl">
             <div className="p-2 bg-zinc-900 rounded-xl group-hover:bg-red-700 transition-colors">
               <MonitorPlay
@@ -86,9 +109,6 @@ const VideosPage = ({ resolvedParams }) => {
               </p>
             </div>
           </div>
-
-          {/* Right: Search Field */}
-          <SearchField />
         </div>
 
         {filteredVideosWithPagination.length > 0 ? (
@@ -102,6 +122,7 @@ const VideosPage = ({ resolvedParams }) => {
                 <div className="relative aspect-video overflow-hidden">
                   <img
                     src={getThumbnailSrc(video)}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-100"
                     alt={video.source_title}
                   />
@@ -111,7 +132,7 @@ const VideosPage = ({ resolvedParams }) => {
                     </div>
                   </div>
                   <div className="absolute bottom-4 right-4 bg-black/80 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-black tracking-widest uppercase">
-                    {video.duration}
+                    {formatDuration(video.fetched_metadata.duration)}
                   </div>
                 </div>
                 <div className="p-6 space-y-3">
@@ -120,7 +141,7 @@ const VideosPage = ({ resolvedParams }) => {
                       {video.category}
                     </span>
                     <span className="text-[10px] text-zinc-500 font-bold uppercase">
-                      {video.date}
+                      {formatUploadDate(video.fetched_metadata.upload_date)}
                     </span>
                   </div>
                   <h4 className="text-xl font-bold leading-tight line-clamp-2 group-hover:text-red-500 transition-colors">
@@ -187,3 +208,68 @@ const VideosPage = ({ resolvedParams }) => {
 };
 
 export default VideosPage;
+
+export function formatDuration(duration) {
+  if (!duration) return "0 sec";
+
+  const parts = duration.split(":");
+
+  // ১. যদি শুধু সেকেন্ড থাকে (যেমন: "45")
+  if (parts.length === 1) {
+    return `${parts[0]} sec`;
+  }
+
+  // ২. যদি মিনিট এবং সেকেন্ড থাকে (যেমন: "4:00")
+  else if (parts.length === 2) {
+    const mins = parseInt(parts[0], 10);
+    const secs = parseInt(parts[1], 10);
+
+    if (mins === 0) return `${secs} sec`; // যদি "0:45" হয়
+    return `${mins} min ${secs > 0 ? secs + " sec" : ""}`;
+  }
+
+  // ৩. যদি ঘণ্টা, মিনিট এবং সেকেন্ড থাকে (যেমন: "1:20:15")
+  else if (parts.length === 3) {
+    const hrs = parseInt(parts[0], 10);
+    const mins = parseInt(parts[1], 10);
+    return `${hrs} hr ${mins > 0 ? mins + " min" : ""}`;
+  }
+
+  return duration;
+}
+
+export function formatUploadDate(dateStr) {
+  if (!dateStr || dateStr.length !== 8) return dateStr;
+
+  const year = dateStr.substring(0, 4);
+  const month = dateStr.substring(4, 6);
+  const day = dateStr.substring(6, 8);
+
+  // মাসগুলোর নাম সেট করা
+  const monthNames = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+
+  const monthName = monthNames[parseInt(month, 10) - 1];
+
+  return `${monthName} ${parseInt(day, 10)}, ${year}`;
+}
+
+export const durationToSeconds = (duration) => {
+  if (!duration) return 0;
+  const parts = duration.split(":").map(Number);
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  return parts[0] || 0;
+};
