@@ -47,9 +47,9 @@ export default function RootLayout({ children }) {
         />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-Z92K7M592D"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="beforeInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
