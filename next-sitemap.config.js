@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://shorif-osman-hadi.netlify.app",
+  siteUrl: "https://sharif-osman-hadi.netlify.app",
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [

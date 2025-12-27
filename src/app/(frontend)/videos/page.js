@@ -16,7 +16,7 @@ import { electionCampaign } from "../../../../public/videos/electionCampaign";
 import VideosPage from "@/components/VideosPage";
 
 export async function generateMetadata() {
-  const canonicalUrl = `https://shorif-osman-hadi.netlify.app/videos/}`;
+  const canonicalUrl = `https://sharif-osman-hadi.netlify.app/videos/}`;
   return {
     title: "ওসমান হাদীর ভিডিও সমূহ",
     alternates: {

@@ -515,17 +515,17 @@ export const electionCampaign = [
     fb_url: "",
     drive_url:
       "https://drive.google.com/file/d/1CR2K_7t-W01fH6uV6uPZ2zqxu7_Df9MK/view?usp=sharing",
-    source_title: "নির্বাচনী প্রচারণায় ওসমান হাদি | Shorif Osman Hadi",
+    source_title: "নির্বাচনী প্রচারণায় ওসমান হাদি | sharif Osman Hadi",
     yt_source_url: "https://www.youtube.com/watch?v=YM2dDL_V-QI",
     yt_metadata: {
-      title: "নির্বাচনী প্রচারণায় ওসমান হাদি | Shorif Osman Hadi",
+      title: "নির্বাচনী প্রচারণায় ওসমান হাদি | sharif Osman Hadi",
       duration: "6",
       upload_date: "20250921",
       view_count: 21398,
       channel: "Dhaka Talk",
     },
     fetched_metadata: {
-      title: "নির্বাচনী প্রচারণায় ওসমান হাদী | Shorif Osman Hadi",
+      title: "নির্বাচনী প্রচারণায় ওসমান হাদী | sharif Osman Hadi",
       duration: "6",
       upload_date: "20250921",
       view_count: 21454,

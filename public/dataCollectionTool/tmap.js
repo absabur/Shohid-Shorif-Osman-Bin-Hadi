@@ -60,7 +60,7 @@ const driveData = [
   },
   {
     title:
-      "নির্বাচনী প্রচারণায় ওসমান হাদি ｜ Shorif Osman Hadi [YM2dDL_V-QI].mkv",
+      "নির্বাচনী প্রচারণায় ওসমান হাদি ｜ sharif Osman Hadi [YM2dDL_V-QI].mkv",
     url: "https://drive.google.com/file/d/1CR2K_7t-W01fH6uV6uPZ2zqxu7_Df9MK/view?usp=sharing",
   },
   {
